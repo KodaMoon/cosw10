@@ -71,6 +71,10 @@ section img {
     border-style: solid;
       display: block;
 }
+<-- Changed width, due to image being off center-->
+.bcs{
+    margin-left: 10%;
+}
 
 footer{
     background: linear-gradient(to bottom, #e3d6bc 0%,#595959 100%,#595959 100%);
