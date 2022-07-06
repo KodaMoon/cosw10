@@ -71,7 +71,7 @@ section img {
     border-style: solid;
       display: block;
 }
-<-- Changed width, due to image being off center-->
+/* Changed width to center images, due to image being off center to the left */
 .bcs{
     margin-left: 10%;
 }
