@@ -80,6 +80,7 @@ footer{
     border-radius: 2px;
 }
 
+/* changed width to 10% because image was off center from left */
 .bcs{
     margin-left: 10%;
 }
