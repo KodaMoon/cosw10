@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEEFE5;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #7A82AB;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #DA7422;
+    padding: 2%;
+}
+
+
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+main {
+    text-align: center;
+    justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    align-content: center;
+}
+
+section p{
+    text-align: center;
+    padding: 0px;
+}
+
+section h3{
+    margin-top: 3%;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1px;
+}
+
+section ul{
+    margin-bottom: 2%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 2%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    background-color: #E3D6BC;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+}
+
+footer{
+    background-image: url("https://tinyurl.com/37dmeat8");
+    background-repeat: no-repeat;
+    background-size: 1920px 720px;
+}
+
