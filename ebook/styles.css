@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Charm', cursive;
+    background-color: #f1dbce;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 2%;
+  font-family: 'Oranienbaum', serif;
+    background-color: #a67b5b;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    font-family: 'Oranienbaum', serif;
+    background-color: #f1dbce;
+}
+
+hr {
+    color: black;
+    width: 350px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+    margin-top: 10px;
+    border: solid;
+}
+
+#chp1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+#p2::first-letter {
+    font-size: 300%;
+    color: #8A2BE2;
+}
+
+p {
+    margin-bottom: 25px;
+    text-align: center;
+    margin: 1%;
+    text-align: center;
+}
+
+
+
+
