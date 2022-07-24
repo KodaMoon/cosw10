@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Koulen', cursive;
+    border: 2px solid;
+    margin-left: 5%;
+}
+
+.main-logo {
+    width: 5%;
+    padding: 1% 1% 1% 1%;
+}
+
+#navbar {
+    background-color: #e9ecef;
+    border: 2px solid;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 100%;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-bottom: 100px;
+    max-width: fit-content;
+    padding: 10%;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+nav a {
+    text-decoration:underline;
+    text-transform: uppercase;
+    color: black;
+    padding-right: 5%;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+}
+
+.city-image {
+    width: 800px;
+    height: 400px;
+}
+
+.history-image {
+    width: 800px;
+    height: 400px;
+}
+
+
+.topontop {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    padding-left: 13%;
+    padding-top: 1%;
+}
+
+.attractions {
+    padding-left: 12%;
+    float: right;
+}
+
+
+footer {
+    padding-left: 10%;
+}
+
+#form-title{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 5%;
+}
+
+#form-info{
+    text-align: center;
+}
+
+#form {
+    background-color: #a8dadc;
+    margin: auto 100px auto 100px;
+    font-family: 'Comfortaa', cursive;
+}
+
+form {
+    margin-left: 10%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.basic {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
